@@ -49,7 +49,7 @@ calcular (1,4,subtrair);
 usando essa forma a operaçao sera realizada assim como mostrado no **declaration function** porem de forma resumida dando a facilidade pro usuario escolher qual tipo de operacao ele vai executar, porem sem precisar que o usuario peça ele mesmo assim executa a operaçao como no exemplo
 
 ```js
-Let somar = (A,B) => A+B ;
+let somar = (A,B) => A+B ;
 
 somar(1,5);
 ```
