@@ -38,7 +38,7 @@ agora essa funçao tende a ter como objetividade simplitificar o que foi mostrad
 
 ```js
 let somar = (A,B) => A+B ; 
-let subitrair = (A,B) => A-B;
+let subtrair = (A,B) => A-B;
 
 let calcular = (A,B,operaçao) =>{
      return operaçao(A,B);
