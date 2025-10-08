@@ -23,7 +23,7 @@ agora vamos analisar a funçao !
 agora diferente do **declaration function** nela podemos usar um LET para colocar a funcao, colocando para que tipo de operacao sera realizada comono exemplo a seguir !
 
 ```js
-Let somar = function(A,B){
+let somar = function(A,B){
     return A+B
 }
 somar(5,7);
@@ -37,10 +37,10 @@ por fim vamos analizar a funçao !
 agora essa funçao tende a ter como objetividade simplitificar o que foi mostrado no **expression function**
 
 ```js
-Let somar = (A,B) => A+B ; 
-Let subitrair = (A,B) => A-B;
+let somar = (A,B) => A+B ; 
+let subitrair = (A,B) => A-B;
 
-Let calcular = (A,B,operaçao) =>{
+let calcular = (A,B,operaçao) =>{
      return operaçao(A,B);
 }
 calcular (1,4,subtrair);
