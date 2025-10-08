@@ -46,12 +46,14 @@ let calcular = (A,B,operaçao) =>{
 calcular (1,4,subtrair);
 
 ```
-usando essa forma a operaçao sera realizada assim como mostrado no **expression function** porem de forma resumida , nesse exemplo o usuario poderia escolher qual tipo de operacao ele vai executar , no exemplo o usuario pediu para subtrair , logo ele ira prucurar a funçao de subtrair e ira executa-la , pois antes nos atribuimos as operaçoes de soma e subtrair na funçao dando uma maior volatividade ao usuario de escolher a operaçao de sua preferencia , porem sem precisar que o usuario peça, ele mesmo assim executa a operaçao como no exemplo abaixo !
+usando essa forma a operaçao sera realizada assim como mostrado no **expression function** porem de forma resumida , nesse exemplo o usuario poderia escolher qual tipo de operacao ele vai executar , no exemplo o usuario pediu para subtrair , logo ele ira prucurar a funçao de subtrair e ira executa-la , pois antes nos atribuimos as operaçoes de soma e subtrair na funçao dando uma maior volatividade ao usuario de escolher a operaçao de sua preferencia.
+
+porem sem precisar que o usuario peça, ele mesmo assim executa a operaçao como no exemplo abaixo !
 
 ```js
 let somar = (A,B) => A+B ;
 
 somar(1,5);
 ```
-como podemos ver a funçao ja foi aplicada diretamnte , e os valores atribuidos ela irao executar da mesma maneira que mostrado no exemplo anterior , apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado !
+como podemos ver a funçao ja foi aplicada diretamente , e os valores atribuidos ela irao executar da mesma maneira que mostrado no exemplo anterior , apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado , sem a necessidade de escolha da por parte do usuario !
 
