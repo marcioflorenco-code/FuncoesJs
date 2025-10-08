@@ -55,5 +55,5 @@ let somar = (A,B) => A+B ;
 
 somar(1,5);
 ```
-como podemos ver a funçao ja foi aplicada diretamente , e os valores atribuidos ela irao executar da mesma maneira que mostrado no exemplo anterior , apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado , sem a necessidade de escolha da por parte do usuario !
+como podemos ver a funçao ja foi aplicada diretamente , e os valores atribuidos ela irao executar da mesma maneira que mostrado no exemplo anterior , apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado , sem a necessidade de escolha por parte do usuario !
 
