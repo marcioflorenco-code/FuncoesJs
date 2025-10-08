@@ -11,10 +11,10 @@ nela nos vamos declarar a funçao ,e dentro dela vamos colocar qual açao sera r
 function somar(A,B){
     return A+B;
 }
-somar(1,5); //saida sera : 6
+console.log(somar(1,5)); //saida sera : 6
 ```
 
-como podemos ver na funçao acima , o comando de soma sera realizado no **return** onde eu atribui que os valores de A e B que irão ser somados, e acima na funçao coloquei os parametros para que recebessem o valor de A e B para assim ser realizado a soma, o **somar** sera o identificador dela para receber os valores como colocado abaixo sendo A=1 e B=5.
+como podemos ver na funçao acima , o comando de soma sera realizado no **return** onde eu atribui que os valores de A e B que irão ser somados, e acima na funçao coloquei os parametros para que recebessem o valor de A e B para assim ser realizado a soma, o **somar** sera o identificador dela para receber os valores como colocado abaixo sendo A=1 e B=5 , o console.log ira servi como um executor parecido como print em python
 
 ****
 agora vamos analisar a funçao !
@@ -26,7 +26,7 @@ agora diferente do **declaration function** nela podemos usar um LET para coloca
 let somar = function(A,B){
     return A+B
 }
-somar(5,7); //saida sera : 12
+console.log(somar(5,7)); //saida sera : 12
 ```
 
 nela podemos perceber que haverar a adicao do LET que vai servir para identificar o tipo de operacao realizada de forma mais completa, onde dentro dela a funçao ira ser realizada , a açao usada foi a de soma representado por A+B, podendo tambem ter outro tipo de opeçao, uma observaçao a ser analisada e que se for usado um console para realizar a açao da operaçao acima o LET tera que ser usado antes do console pois sendo colocado apos o console nao havera a leitura da funçao , porem ha uma maneira de simplificar esse tipo de açao , usando a funçao que sera apresentada a seguir!
@@ -44,7 +44,7 @@ let subtrair = (A,B) => A-B;
 let calcular = (A,B,operaçao) =>{
      return operaçao(A,B);
 }
-calcular (1,4,subtrair); //saida sera : -3
+console.log(calcular (1,4,subtrair)); //saida sera : -3
 
 ```
 usando essa forma a operaçao sera realizada assim como mostrado no **expression function** porem de forma resumida , nesse exemplo o usuario poderia escolher qual tipo de operacao ele vai executar , no exemplo o usuario pediu para subtrair , logo ele ira prucurar a funçao de subtrair e ira executa-la , pois antes nos atribuimos as operaçoes de soma e subtrair na funçao dando uma maior volatividade ao usuario de escolher a operaçao de sua preferencia.
@@ -54,7 +54,7 @@ porem sem precisar que o usuario peça, ele mesmo assim executa a operaçao como
 ```js
 let somar = (A,B) => A+B ;
 
-somar(1,9); //saida sera : 10
+console.log(somar(1,9)); //saida sera : 10
 ```
 como podemos ver a funçao ja foi aplicada diretamente , e os valores atribuidos ela irao executar da mesma maneira que mostrado no exemplo anterior , apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado , sem a necessidade de escolha por parte do usuario !
 
