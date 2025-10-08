@@ -29,7 +29,7 @@ let somar = function(A,B){
 somar(5,7);
 ```
 
-nela podemos perceber que haverar a adicao do LET que vai servir para identificar o tipo de operacao realizada de forma mais completa, onde dentro dela a funçao ira ter a sua açao como mostrado, a açao usada foi a de soma representado por A+B, podendo tambem ter outro tipo de opeçao, uma observaçao a ser analisada e que se for usado um console para realizar a açao da operaçao acima o LET tera que ser usado antes do console pois sendo colocado apos o console nao havera a leitura da funçao , porem ha uma maneira de simplificar esse tipo de açao , usando a funçao que sera apresentada a seguir!
+nela podemos perceber que haverar a adicao do LET que vai servir para identificar o tipo de operacao realizada de forma mais completa, onde dentro dela a funçao ira ser realizada , a açao usada foi a de soma representado por A+B, podendo tambem ter outro tipo de opeçao, uma observaçao a ser analisada e que se for usado um console para realizar a açao da operaçao acima o LET tera que ser usado antes do console pois sendo colocado apos o console nao havera a leitura da funçao , porem ha uma maneira de simplificar esse tipo de açao , usando a funçao que sera apresentada a seguir!
 
 por fim vamos analizar a funçao !
 **ARROW FUNCTION**
@@ -53,5 +53,5 @@ let somar = (A,B) => A+B ;
 
 somar(1,5);
 ```
-como podemos ver os valores ja atribuidos , e a operacao ja simplificada na funçao, ela ira da mesma maneira anteriomente executa , apenas mudando que a operaçao sera feita de maneira mais direta !
+como podemos ver a funçao ja aplicada diretamnte , e os valores atribuidos ela ira executar da mesma maneira que mostrado acima, apenas mudando que a operaçao sera feita de maneira pratica para açoes mais simples como mostrado !
 
