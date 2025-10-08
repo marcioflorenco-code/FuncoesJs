@@ -27,6 +27,7 @@ Let somar = function(A,B){
     return A+B
 }
 somar(5,7);
+```
 
 nela podemos perceber que haverar a adicao do LET que vai servir para identificar o tipo de operacao realizada de forma mais completa, onde dentro dela a funçao ira ter a sua açao como mostrado, a açao usada foi a de soma representado por A+B, podendo tambem ter outro tipo de opeçao, uma observaçao a ser analisada e que se for usado um console para realizar a açao da operaçao acima o LET tera que ser usado antes do console pois sendo colocado apos o console nao havera aleitura da funçao , porem ha uma maneira de simplificar esse tipo de acao , usando a funcao que sera apresentada a seguir!
 
@@ -45,7 +46,8 @@ Let calcular = (A,B,operaçao) =>{
 calcular (1,4,subtrair);
 
 ```
-usando essa forma a operaçao sera realizada assim como mostrado no **declaration function** porem de forma resumida dando a facilidade pro usuario escolher ual tipo de operacao ele vai executar, porem sem precisar ue o usuario peça ele mesmo assim executa a operaçao como no exemplo
+usando essa forma a operaçao sera realizada assim como mostrado no **declaration function** porem de forma resumida dando a facilidade pro usuario escolher qual tipo de operacao ele vai executar, porem sem precisar que o usuario peça ele mesmo assim executa a operaçao como no exemplo
+
 ```js
 Let somar = (A,B) => A+B ;
 
